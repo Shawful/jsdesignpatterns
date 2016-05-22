@@ -6,7 +6,7 @@ object when we wanted to call one public method from another or access
 public variables.  
 
 He also disliked the Module pattern’s requirement for having to switch
- to object literal notation for the things he wished to make public.
+to object literal notation for the things he wished to make public.
 
 
 */
