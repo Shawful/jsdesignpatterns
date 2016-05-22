@@ -61,10 +61,10 @@ console.log ( basketModule.getTotal() );
 // However the following will not work:
 
 // Outputs: undefiend
-// This is because the bracket itself is not exposed as part of our
+// This is because the basket itself is not exposed as part of our
 // public API
 // console.log( basketModule.basket );
 
-// This also won't work because it only exists within the scope of our
-// basketModule closer, but not in the returned public object
+// This also won't work because the basket only exists within the scope of our
+// basketModule closure, but not in the returned public object
 // console.log( basket ); 
